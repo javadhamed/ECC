@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@executeautomation/playwright-mcp-server"],
+      "description": "Browser automation and end-to-end testing with Playwright"
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      },
+      "description": "Direct GitHub integration for pull requests, issues, and repository management"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
+      "description": "Dynamic reasoning and structured problem-solving architecture"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."],
+      "description": "Safe local filesystem operations and exploration"
+    },
+    "postgres": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-postgres", "postgresql://localhost/mydb"],
+      "description": "Inspect schema, execute read queries, and analyze PostgreSQL databases"
+    },
+    "supabase": {
+      "command": "npx",
+      "args": ["-y", "@supabase/mcp-server"],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": ""
+      },
+      "description": "Supabase database inspection, edge functions, and project operations"
+    }
+  }
+}

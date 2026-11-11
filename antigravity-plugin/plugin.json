@@ -1,0 +1,20 @@
+{
+  "name": "ecc-antigravity",
+  "displayName": "ECC for Google Antigravity",
+  "version": "3.0.0",
+  "description": "Enterprise Coding Craft (ECC) optimized exclusively for Google Antigravity IDE and CLI. High-performance software engineering skills, architectural patterns, and verified MCP tool integrations.",
+  "author": {
+    "name": "Javad Hamed",
+    "url": "https://github.com/javadhamed/ECC"
+  },
+  "homepage": "https://github.com/javadhamed/ECC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javadhamed/ECC"
+  },
+  "suggestedPrompts": [
+    "Review this codebase architecture and identify technical debt",
+    "Apply TDD workflow to implement a secure and clean feature",
+    "Audit this project for security vulnerabilities and secrets"
+  ]
+}
